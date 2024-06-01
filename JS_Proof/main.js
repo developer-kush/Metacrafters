@@ -30,8 +30,7 @@ function mintNFT (name, weight, rarity, value) {
 function listNFTs () {
     console.log("--- List of NFTs ---")
     for (let i = 0; i < NFTs.length; i++){
-        console.log("\n");
-        console.log(`NFT #${i}`);
+        console.log(`\nNFT #${i+1}`);
         console.log(`Name : ${NFTs[i].name}`)
         console.log(`Weight : ${NFTs[i].weight}`)
         console.log(`Rarity : ${NFTs[i].rarity}`)
@@ -50,7 +49,6 @@ mintNFT('Diamont Sword', 256, 'EPIC', 7500)
 mintNFT('Dragon Wings', 20, 'UNIQUE', 45000)
 mintNFT('Soul Crown', 50, 'EXCLUSIVE', 20000)
 
-console.log(`Total NFTs : ${NFTs.length}`)
+console.log(`Total NFTs : ${NFTs.length}\n`)
 
 listNFTs()
-
