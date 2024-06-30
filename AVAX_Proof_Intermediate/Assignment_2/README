@@ -1,0 +1,63 @@
+# CurseToken Frontend Integration
+
+This project demonstrates how to connect the CurseToken smart contract to a frontend application built using Next.js. It allows users to interact with the CurseToken smart contract, enabling them to mint and burn tokens.
+
+## Description
+
+The CurseToken frontend application provides a simple interface for users to connect their MetaMask wallet, view their token balance, and perform mint and burn operations on the CurseToken smart contract. The frontend is built using React and Next.js, with ethers.js handling the interaction with the Ethereum blockchain.
+
+## Getting Started
+
+### Installing
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/developer-kush/CurseTokenFrontend.git
+    ```
+
+2. Navigate to the project directory:
+    ```bash
+    cd CurseTokenFrontend
+    ```
+
+3. Install the required dependencies:
+    ```bash
+    npm install
+    ```
+
+### Executing program
+
+1. Start the Ethereum local blockchain:
+    ```bash
+    npm run eth
+    ```
+
+2. Deploy the smart contract:
+    ```bash
+    npm run deploy
+    ```
+
+3. Start the Next.js development server:
+    ```bash
+    npm run dev
+    ```
+
+4. Open your browser and navigate to `http://localhost:3000` to interact with the CurseToken application.
+
+## Help
+
+For common issues, ensure:
+1. You have MetaMask installed in your browser.
+2. Your MetaMask wallet is connected to the local blockchain network.
+3. The smart contract is deployed to the correct address specified in the `contractAddress` variable.
+
+For more help, refer to the [ethers.js documentation](https://docs.ethers.io/v5/) or the [Next.js documentation](https://nextjs.org/docs).
+
+## Authors
+
+Kushagra Agarwal  
+[GitHub](https://github.com/developer-kush)
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details.
